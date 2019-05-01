@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    	<title> Brendan's Website </title>
+    		<link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  	<div class="container">
+  		<span class="image">
+  			<img class="me" src="me.png">
+  		</span>
+  		<span class="header">
+  			<h1 id="name"></h1>
+  			<h3 class="major">Software Engineering</h3>
+  			<H4 class="school">Florida Gulf Coast University</H4>
+		</span>
+	</div>
+	<div class="summary">
+		<button onclick="typeWriter()">Click me</button>
+		<h1 id=aboutme> About_Me</h1>
+			<div class="pblock">
+				<p> My name is Brendan Moreland, and I am a full time software engineering student at Florida Gulf Coast University. </p>
+      			<p> I have two years of experience working as an employee for Little Caesars, as well six months experience as an Assistant Manager at the same establishment. During my time at Little Caesars, I had a number of duties that included preparing food, managing co-workers, and resolving customer conflicts. </p>
+      			<p> I am proficient in both the MacOS and Windows operating systems, and I am also very familiar with Microsoft Office products.</p>
+     			<p>I have included a Word document of my professional resume <a href="resume=.docx"> here,</a> and a copy of my fields report <a href="fieldsreport.docx"> here.</a> </p>
+     		</div>
+	</div>
+	<div class="education">
+		<h1 id="education">Education</h1>
+		<ol class="education_ol">
+        <li class="education_li">‣ Florida Gulf Coast University </li>
+          <li class="nest"> Software Engineering</li>
+        &emsp;  
+        <li class="education_li">‣ Indian River Charter High School</li>
+          <li class="nest"> Vero Beach, Fl - 2016-2017 </li>
+        &emsp;
+        <li class="education_li">‣ Wellsville High School</li>
+          <li class="nest"> Wellsville, NY - 2013-2016 </li>
+      </ol> 
+	</div>
+	<div class="accomplishments">
+		<h1 id="accomplishments">Accomplishments</h1>                                             
+		<ol class="accomplishments_ol">
+          <li class="accomplishments_li">‣  Cumulative High School GPA: 3.98</li>
+          &emsp;
+          <li class="accomplishments_li">‣  NYS Section V Soccer Champion '15</li>
+          &emsp;
+          <li class="accomplishments_li">‣  Assistant Manager at Little Caesars</li>
+          &emsp;
+          <li class="accomplishments_li">‣  Florida Bright Futures Medallion Scholar</li>
+          &emsp;
+          <li class="accomplishments_li">‣  Community Volunteer for Habitat for Humanity</li>
+        </ol>
+	</div>
+	<div class="FollowMe">
+		<h1 id="FollowMe">Follow_Me</h1>
+			<p class="dummy"><a href="https://www.instagram.com/brendanmoreland/" ><img class="logo" src="instagramlogo.png" id="ig"></a>
+				&nbsp;
+      		<a href="https://www.codecademy.com/bdmoreland1"> <img class="logo" src="codelogo.png" id="code"></a>
+      			&nbsp;
+      		<a href="https://github.com/bdmoreland"><img class="logo" src="github.png" id="github"></a>
+      			&nbsp;
+      		<a href="https://scratch.mit.edu/users/bdmoreland1"><img class="logo" src="scratchlogo.png" id="scratch"></a></p>
+	</div>
+	<div class="AboutSE">
+		<h1 id="AboutSE"> What_is_Software_Engineering?</h1>
+		<p class="vid"><iframe width="560" height="315" src="https://www.youtube.com/embed/O753uuutqH8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+	</div>
+	<script>
+	var i = 0;
+	var txt = 'BRENDAN MORELAND'; 
+	var speed = 50; 
+
+	function typeWriter() {
+  		if (i < txt.length) {
+    document.getElementById("name").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  	}
+	}
+	</script>
+  </body>
+
+
+
+
+
+
+
+
+

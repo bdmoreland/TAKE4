@@ -1,0 +1,148 @@
+.me{
+	margin:0;
+	padding:5;
+	height:15%;
+	width:15%;
+	display: inline-block;
+}
+
+.header{
+	display: inline-block;
+	vertical-align: center;
+	transform: translate(0,-60px);
+	height: auto;
+	width: auto;
+	font-family:"Courier New";
+}
+h4{
+	margin-top: 4px;
+	margin-left:10px;
+}
+
+h3{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left:10px;
+}
+
+h1{
+	margin-bottom:2px;
+	margin-left:10px;
+}
+
+.container{
+	vertical-align: center;
+	position: absolute;
+	height:auto;
+	width: auto;
+}
+
+.summary{
+	position:absolute;
+	display: inline-block;
+	width: auto;
+	transform: translate(0,210px);
+	margin-left:10px ;
+	margin-right: 10px;
+
+}
+
+#aboutme{
+	font-family:"Courier New";
+
+}
+
+.pblock{
+	padding: 3px;
+	max-width: 1400px;
+}
+
+p{
+	font-family: "courier";
+}
+
+#education{
+	font-family: "courier new";
+}
+
+.education{
+	transform: translate(0,475px);
+	display: block;
+}
+
+.education_ol{
+	list-style-type: none;
+	text-decoration: none;
+	text-align: center;
+	font-family: "courier";
+}
+
+.education_li{
+	list-style-type: none;
+	text-align: center;
+}
+
+.accomplishments{
+	transform: translate(0,480px);
+	display: block;
+}
+
+#accomplishments{
+		font-family: "courier new";
+}
+
+.accomplishments_ol{
+	list-style-type: none;
+	text-decoration: none;
+	text-align: center;
+	font-family: "courier";
+}
+
+.FollowMe{
+	transform: translate(0,500px);
+	display: block;
+	vertical-align: middle;
+}
+
+#FollowMe{
+	font-family: "courier new";
+	vertical-align: center;
+}
+
+.logo{
+	height: 100px;
+	width: 100px;
+}
+
+.dummy{
+	text-align: center;
+}
+
+.AboutSE{
+	transform: translate(0,520px);
+	display: block;
+}
+
+#AboutSE{
+	font-family: "courier new";
+}
+
+.vid{
+	text-align: center;
+}
+
+#scratch{
+	height:10%;
+	width:10%;
+	vertical-align: center;
+}
+
+
+
+
+
+
+
+
+
+
